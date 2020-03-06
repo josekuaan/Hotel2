@@ -422,7 +422,7 @@ h6 {
 
 /* our room plan */
 .hotel-plan{
-  background: #cfcfcf0d;
+  background: #f7f7f7;
   padding: 5rem;
 }
 .content{
@@ -497,14 +497,14 @@ text-transform: uppercase;
   padding: 5rem;
 }
 .testimony{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   display:flex;
   justify-content: space-around;
   /* color:#FFF; */
 }
 
-.testimony > p{
+.testimony > div{
   background: #FFF;
   margin-right: 20px;
   padding: 20px;
@@ -526,15 +526,6 @@ text-transform: uppercase;
     height: 5px;
     background: var(--primaryColor);
     margin: 1.7rem auto;
-}
-
-.map{
-  background-image: url('./images/map.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.map-title{
-  padding: 77px;
 }
 
 footer{
@@ -604,6 +595,65 @@ footer{
   text-align: center;
   color: #c19b76;
 }
+
+@media screen and (max-width:680px){
+  .testimony  {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    margin-right: 0;
+  }
+  .testimony > div {
+    margin-top: 20px ;
+    margin-right: 0;
+  }
+  .testimony-section{
+    padding: 2rem;
+  }
+  .hotel-plan{
+    padding:2rem;
+  }
+  .content{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  footer{
+    padding:0px;
+  }
+}
+
+@media screen and (max-width:486px){
+  .testimony  {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    margin-right: 0;
+  }
+  .testimony > div {
+    margin-top: 20px ;
+    margin-right: 0;
+  }
+  .footer-content{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-content > ul > li{
+    font-size: 1.1rem;
+  }
+  .footer-content > ul > li:nth-child(2){
+    font-size:0.3rem
+  }
+  .subscribe > .btn{
+    padding: 1px 25px;
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .single-room-images,
   .single-room-info,

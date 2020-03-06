@@ -32,7 +32,6 @@ class RoomProvider extends Component {
 
         try{
             let response = await Client.getEntries({content_type:"hotelManagement",order:"sys.createdAt"})
-            console.log(response)
             let rooms = this.formatData(response.items)
             
             let featuredRooms = rooms.filter(room => room.featured === true)
@@ -71,7 +70,7 @@ class RoomProvider extends Component {
     }
 
     filteredRoom() {
-        let { rooms, type, price, capacity, maxPrice, maxSize, minSize, pets, breakfast } = this.state;
+        let { rooms, type, price, capacity, maxSize, minSize, pets, breakfast } = this.state;
         capacity = parseInt(capacity)
         price = parseInt(price)
         minSize = parseInt(minSize)

@@ -9,20 +9,20 @@ export default function Testimonies() {
         <section className="testimony-section">
             <Title title="What Our Fantastic Clients Say" />
             <div className="testimony">
-                <p className="">
+                <div className="">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Ab sunt repudiandae voluptatem quae provident pariatur, amet 
                     aspernatur et cupiditate eos reprehenderit exercitationem, quidem 
                     voluptate mollitia officiis corporis beatae atque magni!
-                    <p className="client-img">
+                    <div className="client-img">
                         <img src={face1} alt="client"/>
                         <div className="client-name">
                         <strong>John Smith</strong>
                         <p>Client</p>
                         </div>
-                    </p>
-                </p>
-                <p className="">
+                    </div>
+                </div>
+                <div className="">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Ab sunt repudiandae voluptatem quae provident pariatur, amet 
                     aspernatur et cupiditate eos reprehenderit exercitationem, quidem 
@@ -34,8 +34,8 @@ export default function Testimonies() {
                         <p>Client</p>
                         </div>
                     </div>
-                </p>
-                <p className="">
+                </div>
+                <div className="">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Ab sunt repudiandae voluptatem quae provident pariatur, amet 
                     aspernatur et cupiditate eos reprehenderit exercitationem, quidem 
@@ -47,7 +47,7 @@ export default function Testimonies() {
                         <p>Client</p>
                         </div>
                     </div>
-                </p>
+                </div>
             </div>
         </section>
     )

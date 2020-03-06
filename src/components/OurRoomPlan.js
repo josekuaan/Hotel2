@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Title from './Title'
-import { FaStar, FaHotel, FaUser,FaRss,FaSmile,FaMoneyBillAlt } from 'react-icons/fa';
+// import { FaStar, FaHotel, FaUser,FaRss,FaSmile,FaMoneyBillAlt } from 'react-icons/fa';
 
 export default function OurRoomPlan() {
     return (
