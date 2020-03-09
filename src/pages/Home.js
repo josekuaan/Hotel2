@@ -18,9 +18,9 @@ export default function Home() {
                 <Banner title="luxurious rooms" subtitle="deluxe starting at $299">
                     <Link to='/rooms' className="btn-primary">to rooms</Link>
                 </Banner>
-            </Hero>     
+            </Hero>  
+            <FeaturedRooms />   
             <Services />
-           <FeaturedRooms />
            <OurRoomPlan />
            <Testimonies />
            {/* <Location /> */}
