@@ -8,9 +8,9 @@ export default function Footer() {
             <div className=" footer-content">
                 <ul>
                 <li>Phone Support</li>
-                <li><h3>24 HOURS A DAY</h3></li>
+                <li><h3> + 12 345 555 999</h3></li>
                     
-                    <li>+ 12 345 555 999</li>
+                    <li>24 HOURS A DAY</li>
                 </ul>
                 <ul>
                     <li>Follow Us</li>
